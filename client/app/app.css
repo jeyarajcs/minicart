@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    position: relative;
+}
+
+body {
+    margin-bottom: 50px;
+    padding-top: 70px;
+}
+
+/* navigation */
+.navbar-inverse {
+    background-color: #85929E;
+    border-color: #85929E;
+}
+
+/* pagination */
+.pagination>li>a {
+    cursor: pointer;
+    color: #85929E;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #85929E;
+    border-color: #85929E;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #85929E;
+    border-color: #85929E;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    z-index: 2;
+    color: #85929E;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+/* other stuff */
+.breadcrumb {
+   // border-radius: 8px;
+   // border-top: 1px solid black;
+   // border-bottom: 1px solid black;
+   // background-color: transparent;
+}
+.badge {
+    background-color: #85929E
+}
+
+/* footer  */
+footer {
+    width: 100vw;
+    height: 50px;
+    text-align: center;
+}
+
+.copyright {
+    line-height: 50px;
+    font-weight: 700;
+}
+
+/* buttons */
+.btn-primary {
+    color: #fff;
+    background-color: #85929E;
+    border-color: #85929E;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #85929E;
+    border-color: #85929E;
+}
+
+/*  links and hr */
+a {
+    color: #85929E;
+}
+a:hover {
+    color: #85929E;
+    border-color: #85929E;
+}
+hr {
+    border-top: 1px solid #85929E;
+}
+
+
+
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
