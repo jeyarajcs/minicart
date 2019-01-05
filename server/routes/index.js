@@ -3,8 +3,8 @@
 require('dotenv').config();
 const router = require('express').Router();
 const MongoClient = require('mongodb').MongoClient;
-const dbURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/mongomart';
-//const dbURI = "mongodb://admin:admin123@ds133262.mlab.com:33262/minicart";
+//const dbURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/mongomart';
+const dbURI = "mongodb://admin:admin123@ds133262.mlab.com:33262/minicart";
 
 const connectToDatabase = () => {
   return new Promise((resolve, reject) => {

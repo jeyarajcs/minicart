@@ -23,8 +23,8 @@ lib-cov
 .grunt
 
 # Bower dependency directory (https://bower.io/)
-bower_components
-client/vendor
+#bower_components
+#client/vendor
 
 # node-waf configuration
 .lock-wscript
